@@ -1,0 +1,88 @@
+a:link{
+    color: rgb(0, 89, 255);
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+
+.pseudo2 a:link{
+    color: rgba(255, 145, 0, 0.815);
+}
+
+
+.pseudo2 a:visited{
+    text-decoration: none;
+}
+
+
+.pseudo2 a:hover{
+    color: rgb(30, 255, 0);
+    text-decoration: none;
+}
+
+
+.pseudo2 a:active{
+    color: rgb(52, 9, 153);
+}
+
+
+.pseudo2 a:focus{
+    color: rgb(234, 0, 255);
+}
+
+ol.first{
+    padding: 0;
+    list-style: none;
+}
+
+ol.first li{
+    padding: 10px 0;
+    border-top: 1px solid #000;
+}
+
+.first li:first-child{
+    border-top: none;
+}
+
+ul.last{
+    padding: 0;
+    list-style: none;
+}
+
+ul.last li{
+    display: inline;
+    padding: 0 20px;
+    border-right: 1px solid #000;
+}
+
+.last li:last-child{
+    border-right: none;
+}
+
+table{
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+table tr{
+    border-bottom: 1px solid #666;
+}
+
+table tr td{
+    padding: 10px;
+}
+
+table tr:nth-child(2n) td{
+    background: #f2f2f2;
+}
+
+q:lang(no){
+    quotes: "~" "~";
+}
+
+
+a.red:link{
+    color: #f00;
+}
